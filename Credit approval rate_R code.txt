@@ -231,7 +231,7 @@ V4u          6.174e+01  8.830e+02   0.070 0.944256
 V4y          6.096e+01  8.830e+02   0.069 0.944958    
 V8           7.804e-02  5.348e-02   1.459 0.144484    
 ---
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+Signif. codes:  0 Â‘***Â’ 0.001 Â‘**Â’ 0.01 Â‘*Â’ 0.05 Â‘.Â’ 0.1 Â‘ Â’ 1
 
 (Dispersion parameter for binomial family taken to be 1)
 
@@ -273,7 +273,7 @@ X-squared = 14.289, df = 8, p-value = 0.07453
 > library(car)
 Loading required package: carData
 Warning message:
-package ‘car’ was built under R version 3.5.3 
+package Â‘carÂ’ was built under R version 3.5.3 
 > vif(fit)
         GVIF Df GVIF^(1/(2*Df))
 V9  1.181118  1        1.086793
@@ -423,7 +423,7 @@ Loading required package: foreach
 Loaded glmnet 2.0-16
 
 Warning message:
-package ‘glmnet’ was built under R version 3.5.3 
+package Â‘glmnetÂ’ was built under R version 3.5.3 
 > fit.lasso=glmnet(x, y, family="binomial") 
 > lambda.seq=fit.lasso$lambda 
 > pi0=seq(0,1, length.out = 100) 
